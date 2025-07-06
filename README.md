@@ -1,4 +1,4 @@
-📘 Study Notion
+#📘 Study Notion
 Study Notion is an Ed-Tech (Education Technology) web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It is designed as a learning project and serves as a sample full-stack application for educational and personal use.
 
 📝 Note
