@@ -2,47 +2,51 @@
 ## Study Notion
 Study Notion is an ED Tech (Education Technology) web application developed using the MERN stack.
 
-📝 Note
+# 📝 Note
+This project is intended as a learning tool and can be used as a sample project for educational or personal projects.
 
-This project is intended as a learning tool and is ideal for:
-Educational purposes
-Personal portfolio projects
-Practice with full-stack development
+# 🚀 Features
+User Authentication: Study Notion provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their profiles with ease.
 
-🚀 Features
-🔐 User Authentication
-Secure user registration and login using JWT (JSON Web Tokens)
-Users can sign up, log in, and manage their profiles
+Courses and Lessons:Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
 
-🎓 Courses and Lessons
-Instructors can create, edit, and manage courses
-Students can enroll in courses and access structured learning materials
+Progress Tracking: Study Notion allows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and assignments, and overall course progress.
 
-📈 Progress Tracking
-Track completed lessons, scores on quizzes/assignments
-View overall course progress
+Payment Integration: Study Notion integrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services using various payment methods supported by Razorpay.
 
-💳 Payment Integration
-Integrated with Razorpay for seamless payment processing
-Supports multiple payment methods for course enrollment and services
+Search Functionality: Users can easily search for courses, lessons, and resources using the built-in search feature. This makes it convenient to find relevant content quickly.
 
-🔍 Search Functionality
-Built-in search to find courses, lessons, and resources easily
-Enables quick access to relevant content
+Instructor Dashboard: Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in each course, track course performance, and view their income generated from course sales.
 
-📊 Instructor Dashboard
-Comprehensive dashboard for instructors
-Visual analytics for:
-
-Total students enrolled per course
-Course performance insights
-Income reports and trends from course sales
-
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend: React.js, Tailwind CSS
 Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JWT
 Payments: Razorpay API
+
+## Important
+Backend is in the server folder.
+Before uploading courses and anything create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
+To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
+Installation
+
+# Clone the repository to your local machine.
+git clone https://github.com/himanshu8443/Study-Notion-master.git
+
+# Install the required packages.
+cd Study-Notion-master
+npm install
+
+cd server
+npm install
+
+# Set up the environment variables:
+Create a .env file in the root directory and /server Add the required environment variables, such as database connection details, JWT secret, and any other necessary configurations check .env.example files for more info.
+
+# Start the development server.
+npm run dev
+Open the project in your browser at http://localhost:3000 to view your project.
+
 
 
