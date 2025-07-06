@@ -12,7 +12,7 @@ import ExploreMore from '../components/core/HomePage/ExploreMore';
 import { useDispatch } from 'react-redux';
 import { setProgress } from "../slices/loadingBarSlice"
 import { getCatalogaPageData } from '../services/operations/pageAndComponentData';
-import CourseSlider from '../Components/core/Catalog/CourseSlider';
+import CourseSlider from '../components/core/Catalog/CourseSlider';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import RatingSlider from '../components/core/Ratings/RatingSlider';
