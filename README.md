@@ -1,8 +1,46 @@
-# React + Vite
+📘 Study Notion
+Study Notion is an Ed-Tech (Education Technology) web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It is designed as a learning project and serves as a sample full-stack application for educational and personal use.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📝 Note
+This project is intended as a learning tool and is ideal for:
+Educational purposes
+Personal portfolio projects
+Practice with full-stack development
 
-Currently, two official plugins are available:
+🚀 Features
+🔐 User Authentication
+Secure user registration and login using JWT (JSON Web Tokens)
+Users can sign up, log in, and manage their profiles
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎓 Courses and Lessons
+Instructors can create, edit, and manage courses
+Students can enroll in courses and access structured learning materials
+
+📈 Progress Tracking
+Track completed lessons, scores on quizzes/assignments
+View overall course progress
+
+💳 Payment Integration
+Integrated with Razorpay for seamless payment processing
+Supports multiple payment methods for course enrollment and services
+
+🔍 Search Functionality
+Built-in search to find courses, lessons, and resources easily
+Enables quick access to relevant content
+
+📊 Instructor Dashboard
+Comprehensive dashboard for instructors
+Visual analytics for:
+
+Total students enrolled per course
+Course performance insights
+Income reports and trends from course sales
+
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JWT
+Payments: Razorpay API
+
+
