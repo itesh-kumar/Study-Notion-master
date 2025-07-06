@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { apiConnector } from '../../services/apiConnector';
 import { contactusEndpoint } from '../../services/apis';
 import toast from 'react-hot-toast';
-import countryCode from "../../data/countrycode.json"
+import countryCode from "../../data/countryCode.json"
 
 const ContactUsForm = () => {
     const [loading, setloading] = useState(false);
